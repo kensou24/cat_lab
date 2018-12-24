@@ -69,7 +69,7 @@ public class AcmeFinancialBackOfficeApplication {
 
 	@RequestMapping("/readtimeout")
 	public String connectionTimeout() throws InterruptedException {
-		Transaction t = Cat.newTransaction(CatConstants.TYPE_CALL, "connectionTimeout");
+		Transaction t = Cat.newTransaction(CatConstants.TYPE_REMOTE_CALL, "connectionTimeout");
 		Thread.sleep(500);
 		try {
 			log.info("Calling a missing service");

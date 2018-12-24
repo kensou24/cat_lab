@@ -34,7 +34,7 @@
 		<dependency>
 		   <groupId>com.dianping.cat</groupId>
 		   <artifactId>cat-client</artifactId>
-		   <version>2.0.0</version>
+		   <version>3.0.0</version>
 		</dependency>
 
 		<dependency>
@@ -48,7 +48,7 @@
 		    <artifactId>wiremock</artifactId>
 		    <version>2.14.0</version>
 		    <!-- type>pom</type>
-		    <scope>test</scope-->
+		    <scope>META-INF.test</scope-->
 		</dependency>
 		
 	</dependencies>
